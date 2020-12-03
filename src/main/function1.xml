@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+<suite name= "Function">
+
+
+<parmeter name= "browser" value "Chrome"></parmeter>
+<parameter name= "URI" value= "https://www.facebook.com"></parameter>
+
+<test name="Adhoc">
+<classes>
+<class name= "Run.NewFunctionAccount"></class>
+<class name="Run.Functions"></class>
+
+
+</classes>
+</test>
+</suite>
